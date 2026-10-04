@@ -1,0 +1,9 @@
+# Illustrative settings only; merge into installed config, do not replace it.
+vars:
+  address-groups:
+    HOME_NET: "[192.168.56.0/24]"
+    EXTERNAL_NET: "!$HOME_NET"
+default-rule-path: /etc/suricata/rules
+rule-files:
+  - local.rules
+# Ensure full config enables eve-log and includes alert event type.

@@ -1,0 +1,10 @@
+*.log
+*.pcap
+*.pcapng
+.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+*.swp
+*~
